@@ -20,9 +20,10 @@
     border: 1px solid;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.containers{
+.socialIcons{
     background-color: aquamarine;
     width: 12%;
-    height: 100%;
+    height: 10vh;
 }

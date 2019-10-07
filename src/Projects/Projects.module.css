@@ -1,5 +1,5 @@
 .projects{
-    height: 100vh;
+    min-height: 100vh;
     background-color: mediumpurple;
     display: flex;
     justify-content: center;
@@ -15,7 +15,8 @@
 }
 .projectsMain{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 .mainFirst{
@@ -41,7 +42,7 @@
     height: 70vh;
 }
 .secondTop{
-    background-image: url(images.png);
+    background-image: url(../images.png);
     height: 70vh;
     width: 70vh;
     display: flex;

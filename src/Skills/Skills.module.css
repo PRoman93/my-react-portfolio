@@ -1,5 +1,5 @@
 .skills{
-    height: 100vh;
+    min-height: 100vh;
     background-color: aquamarine;
     display: flex;
     justify-content: center;
@@ -7,15 +7,17 @@
 .container{
     width: 80%;
     border: 1px solid;
+    min-height: 100%;
 }
 .topSkills{
     text-align: center;
-    height: 100px;
+    min-height: 100px;
 }
 .otherSkills{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border: 1px solid;
+    flex-wrap: wrap;
 }
 .column1,.column2,.column3{
     /*height: 400px;*/

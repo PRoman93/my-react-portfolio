@@ -7,9 +7,15 @@ function Projects() {
       <div className={styles.container}>
         <div className={styles.works}>Мои работы</div>
         <div className={styles.projectsMain}>
-          <div className={styles.mainFirst}>
-            <div className={styles.firstTop}></div>
-            <div className={styles.firstBottom}></div>
+          <div className={styles.mainSecond}>
+            <div className={styles.secondTop}>
+              <button>Смотреть</button>
+            </div>
+            <div className={styles.secondBottom}>
+              <div>Название проекта</div>
+              <div className={styles.bottomDescription}>
+                Краткое описание</div>
+            </div>
           </div>
           <div className={styles.mainSecond}>
             <div className={styles.secondTop}>

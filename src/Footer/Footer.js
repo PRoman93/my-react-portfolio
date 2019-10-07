@@ -8,10 +8,10 @@ function Footer() {
             <div className={styles.container}>
                 <div>Иван Иванов</div>
                 <div className={styles.footerContainer}>
-                    <div className={styles.containers}></div>
-                    <div className={styles.containers}></div>
-                    <div className={styles.containers}></div>
-                    <div className={styles.containers}></div>
+                    <div className={styles.socialIcons}></div>
+                    <div className={styles.socialIcons}></div>
+                    <div className={styles.socialIcons}></div>
+                    <div className={styles.socialIcons}></div>
                 </div>
                 <div>© 2019 Все права защищены</div>
             </div>

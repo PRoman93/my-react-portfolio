@@ -27,6 +27,7 @@
 .contactsInput{
     width: 100%;
 }
-.area{
+.mainContacts textarea{
     width: 100%;
+    height: 100%;
 }
