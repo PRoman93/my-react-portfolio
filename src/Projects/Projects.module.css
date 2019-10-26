@@ -15,15 +15,14 @@
 }
 .projectsMain{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
+    justify-content: space-between;
 }
 .mainFirst{
     display: flex;
     flex-direction: column;
     height: 70vh;
     width: 70vh;
+    margin: 5%;
 }
 .firstTop{
     background-color: grey;
@@ -40,11 +39,12 @@
     flex-direction: column;
     width: 70vh;
     height: 70vh;
+    margin: 5%;
 }
 .secondTop{
     background-image: url(../images.png);
     height: 70vh;
-    width: 70vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,3 +62,11 @@
     width: 80%;
     height: 60%;
 }
+
+
+@media screen and (max-width: 1252px) {
+    .projectsMain{
+        justify-content: center;
+    }
+}
+

@@ -1,6 +1,6 @@
 .main{
     height: 100vh;
-    background-color: blanchedalmond;
+    background-color: #1F1F20;
     display: flex;
     justify-content: center;
 }
@@ -10,16 +10,81 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .greeting{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+}
+.greeting span:nth-child(1){
+    font-size: 14px;
+    color: #E0E0DF;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span{
+    font-size: 40px;
+    color: #E0E0DF;
+    font-family: Montserrat;
+    font-weight: 800;
+    position: relative;
+    z-index: 0;
+}
+
+
+.greeting span:nth-child(2) span:before{
+    content: "";
+    width: 100%;
+    height: 20px;
+    background: #FF00AE;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.greeting h1:nth-child(3){
+    font-size: 24px;
+    color: #E0E0DF;
+    font-family: Montserrat;
+    font-weight: 800;
 }
 .photo{
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+.photo div{
     height: 70vh;
     width: 300px;
     background-color: gray;
+}
+.photo div:before{
+    content: "";
+    position: absolute;
+    height: 75vh;
+    width: 300px;
+    border: 5px solid #FF00AE;
+    left: 15px;
+    top: -15px;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 1172px) {
+    .main{
+        height: 100%;
+    }
+    .greeting{
+        padding-top: 30%;
+    }
+    .photo{
+        margin-bottom: 5%;
+    }
+
 }

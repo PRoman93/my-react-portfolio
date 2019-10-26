@@ -5,3 +5,7 @@ body{
     align-items: center;
 }
 
+@media (min-device-width:320px) {
+
+}
+
