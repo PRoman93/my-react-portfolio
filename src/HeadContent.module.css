@@ -1,0 +1,33 @@
+.topSkills{
+    min-height: 100px;
+    font-family: Montserrat;
+    font-size: 36px;
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: capitalize;
+}
+.line{
+    background: #e9548d;
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
+}
+
+
+@media screen and (max-width: 1128px) {
+    .otherSkills{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .otherSkills{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

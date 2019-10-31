@@ -1,13 +1,17 @@
 import React from 'react';
 import styles from './Skills.module.css';
+import HeadContent from "../HeadContent";
 
 function Skills() {
+
+
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
                 <div className={styles.headerWrapper}>
-                    <h2 className={styles.topSkills}>Мои скиллы</h2>
-                    <div className={styles.line}></div>
+                    <HeadContent title="Мои скиллы"/>
+                    {/*<h2 className={styles.topSkills}>Мои скиллы</h2>*/}
+                    {/*<div className={styles.line}></div>*/}
                     <div>
                         <span className={styles.active}>All</span><span>Slideshow</span><span>Video</span><span>Image</span>
                     </div>

@@ -6,7 +6,6 @@
 }
 .container{
     width: 80%;
-    border: 1px solid;
     min-height: 100%;
 }
 .headerWrapper{
@@ -48,7 +47,6 @@
 .otherSkills{
     display: flex;
     justify-content: space-between;
-    border: 1px solid;
     flex-wrap: wrap;
 }
 .column1,.column2,.column3{

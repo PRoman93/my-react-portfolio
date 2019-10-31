@@ -1,12 +1,11 @@
 .projects{
     min-height: 100vh;
-    background-color: mediumpurple;
+    background-color: #1F1F20;
     display: flex;
     justify-content: center;
 }
 .container{
     width: 80%;
-    border: 1px solid;
 }
 .works{
     text-align: center;

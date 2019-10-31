@@ -1,6 +1,6 @@
 .footer{
     height: 300px ;
-    background-color: darkolivegreen;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,11 +8,15 @@
 .container{
     width: 80%;
     height: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.header{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
 }
 .footerContainer{
     height: 35%;
@@ -22,10 +26,30 @@
     justify-content: space-between;
     align-items: center;
 }
-.socialIcons{
-    background-color: aquamarine;
-    width: 12%;
-    height: 10vh;
+/*.socialIcon1{*/
+/* background-image: url("facebook.jpg");*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+/*.socialIcon2{*/
+/*    background-image: url("mail.ru.jpg");*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+/*.socialIcon3{*/
+/*    background-image: url("vk.jpg");*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+/*.socialIcon4{*/
+/*    background-image: url("instagram.png");*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+.copyRights{
+    font-size: 10px;
+    font-family: Montserrat;
+    color: white;
 }
 
 @media screen and (max-width: 626px) {
