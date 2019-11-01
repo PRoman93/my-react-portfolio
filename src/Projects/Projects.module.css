@@ -67,5 +67,8 @@
     .projectsMain{
         justify-content: center;
     }
+    .projectsMain{
+    flex-wrap: wrap;
+    }
 }
 

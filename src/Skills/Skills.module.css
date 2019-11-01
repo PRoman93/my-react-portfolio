@@ -47,9 +47,8 @@
 .otherSkills{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
-.column1,.column2,.column3{
+.column3{
     /*height: 400px;*/
     /*width: 300px;*/
     height: 70vh;

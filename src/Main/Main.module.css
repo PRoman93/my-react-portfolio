@@ -87,3 +87,17 @@
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    .photo div{
+        height: 40vh;
+        width: 150px;
+    }
+    .photo div:before{
+        height: 44vh;
+        width: 150px;
+
+    }
+
+
+}

@@ -21,31 +21,14 @@
 .footerContainer{
     height: 35%;
     width: 70%;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/*.socialIcon1{*/
-/* background-image: url("facebook.jpg");*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*}*/
-/*.socialIcon2{*/
-/*    background-image: url("mail.ru.jpg");*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*}*/
-/*.socialIcon3{*/
-/*    background-image: url("vk.jpg");*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*}*/
-/*.socialIcon4{*/
-/*    background-image: url("instagram.png");*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*}*/
+.socialIcon{
+    border-radius: 15px;
+    cursor: pointer;
+}
 .copyRights{
     font-size: 10px;
     font-family: Montserrat;

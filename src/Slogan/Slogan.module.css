@@ -16,3 +16,10 @@
 .container div{
     text-align: center;
 }
+
+@media screen and(max-width: 1093px) {
+    .new{
+        margin-bottom: 20px;
+    }
+
+}

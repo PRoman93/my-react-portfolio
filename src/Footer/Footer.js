@@ -1,17 +1,21 @@
 import React from 'react';
 import styles from "./Footer.module.css";
+import  vk from "./vk.jpg"
+import facebook from "./facebook.jpg"
+import instagram from "./instagram.jpg"
+import mail from "./mail.ru.jpg"
 
 
 function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
-                <div className={styles.header}>Иван Иванов</div>
+                <div className={styles.header}>Роман Прокопец</div>
                 <div className={styles.footerContainer}>
-                    <div className={styles.socialIcon1}><img src="vk.jpg" alt="" width="50px" height="50px"/></div>
-                    <div className={styles.socialIcon2}><img src="facebook.jpg" width="50px" height="50px" alt=""/></div>
-                    <div className={styles.socialIcon3}><img src="mail.ru.jpg" width="50px" height="50px"  alt=""/></div>
-                    <div className={styles.socialIcon4}><img src="instagram.png" width="50px" height="50px" alt=""/></div>
+                    <div><img className={styles.socialIcon} src={vk} alt="" width="50px" height="50px"/></div>
+                    <div><img className={styles.socialIcon} src={facebook} width="50px" height="50px" alt=""/></div>
+                    <div><img className={styles.socialIcon} src={mail} width="50px" height="50px"  alt=""/></div>
+                    <div><img className={styles.socialIcon} src={instagram} width="50px" height="50px" alt=""/></div>
                 </div>
                 <div className={styles.copyRights}>© 2019 Все права защищены</div>
             </div>
