@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Footer.module.css";
-import  vk from "./vk.jpg"
+import vk from "./vk.jpg"
 import facebook from "./facebook.jpg"
 import instagram from "./instagram.jpg"
 import mail from "./mail.ru.jpg"
