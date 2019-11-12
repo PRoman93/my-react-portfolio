@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css';
+import photo from './banner.jpg'
 
 function Main() {
     return (
@@ -11,7 +12,7 @@ function Main() {
                     <h1>Я front-end developer</h1>
                 </div>
                 <div className={styles.photo}>
-                    <div></div>
+                    <div><img src={photo} alt=""/></div>
                 </div>
             </div>
         </div>

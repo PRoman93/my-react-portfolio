@@ -1,31 +1,54 @@
-.topSkills{
-    min-height: 100px;
+.titleWrap {
+}
+
+
+.title{
     font-family: Montserrat;
     font-size: 36px;
-    margin-bottom: 0;
+    margin-bottom: 80px;
     color: #fff;
     text-transform: capitalize;
+    position: relative;
 }
-.line{
-    background: #e9548d;
-    width: 55px;
+.title:before{
+    content: "";
+    position: absolute;
+    background: darkslateblue;
     height: 1px;
-    margin: 30px auto;
+    width: 55px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
+/*@media screen and(max-width: 1093px) {*/
+/*    .slogan .container .titleWrap .title::before {*/
+/*        top: 100px;*/
+/*    }*/
 
-@media screen and (max-width: 1252px) {
-    .line{
-        position: relative;
-        bottom: 40px;
-    }
+/*}*/
 
-}
 
-@media screen and (max-width: 600px) {
-   .line{
-       position: relative;
-       bottom: 50px;
-   }
+/*.line{*/
+/*    background: #e9548d;*/
+/*    width: 55px;*/
+/*    height: 1px;*/
+/*    margin: 30px auto;*/
+/*}*/
 
-}
+
+/*@media screen and (max-width: 1252px) {*/
+/*    .line{*/
+/*        position: relative;*/
+/*        bottom: 40px;*/
+/*    }*/
+
+/*}*/
+
+/*@media screen and (max-width: 600px) {*/
+/*   .line{*/
+/*       position: relative;*/
+/*       bottom: 50px;*/
+/*   }*/
+
+/*}*/

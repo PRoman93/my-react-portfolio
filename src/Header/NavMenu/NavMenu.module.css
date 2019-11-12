@@ -5,4 +5,10 @@
 }
 .navMenu a {
     text-decoration: none;
+    color: white;
+}
+.navMenu a:hover{
+    color: black;
+    text-transform: uppercase;
+    transition: 0.8s;
 }

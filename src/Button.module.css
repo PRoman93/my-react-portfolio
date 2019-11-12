@@ -34,7 +34,7 @@
     bottom: 0;
     height: 10px;
     width: 50%;
-    background: #e9548d;
+    background: darkslateblue;
     z-index: -1;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -moz-transition: all 0.2s ease-in-out 0s;

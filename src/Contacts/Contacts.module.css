@@ -25,10 +25,15 @@
     width: 70%;
     background: #1F1F20;
     color: white;
-    border-color: grey;
+    border: 1px solid grey;
     padding: 7px;
     margin: 2px 0;
     border-radius: 0;
+}
+.headContent{
+    width: 100%;
+    align-items: center;
+    text-align: center;
 }
 .mainContacts textarea{
     width: 70%;
@@ -39,6 +44,13 @@
     padding: 7px;
     margin-bottom: 50px;
     border-radius: 0;
+    resize: none;
+}
+
+@media screen and (max-width: 1400px){
+    .mainContacts{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 626px) {

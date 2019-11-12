@@ -10,7 +10,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-
+    margin: 100px 0;
 }
 .greeting{
     display: flex;
@@ -40,7 +40,7 @@
     content: "";
     width: 100%;
     height: 20px;
-    background: #FF00AE;
+    background: darkslateblue;
     position: absolute;
     bottom: 0;
     z-index: -1;
@@ -63,12 +63,16 @@
     width: 300px;
     background-color: gray;
 }
+.photo div img{
+    width: 100%;
+    height: 100%;
+}
 .photo div:before{
     content: "";
     position: absolute;
     height: 75vh;
     width: 300px;
-    border: 5px solid #FF00AE;
+    border: 5px solid darkslateblue;
     left: 15px;
     top: -15px;
     z-index: -1;
@@ -87,15 +91,28 @@
     }
 
 }
+@media screen and (max-width: 797px){
+
+    .greeting span:nth-child(2) span:before{
+        content: "";
+        width: 100%;
+        height: 20px;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        background-color: rgba(0,0,0,1);
+    }
+
+}
 
 @media screen and (max-width: 500px) {
     .photo div{
-        height: 40vh;
-        width: 150px;
+        height: 50vh;
+        width: 250px;
     }
     .photo div:before{
-        height: 44vh;
-        width: 150px;
+        height: 54vh;
+        width: 240px;
 
     }
 

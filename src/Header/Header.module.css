@@ -1,6 +1,6 @@
 .header{
     height: 70px;
-    background-color: lightyellow;
+    background-color: rgba(49, 31, 255, 0.39);
     display: flex;
     justify-content: center;
     position: fixed;

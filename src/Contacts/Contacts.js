@@ -8,7 +8,9 @@ function Contacts() {
     return (
         <div className={styles.contacts}>
             <div className={styles.container}>
-                <div><HeadContent title="Контакты"/></div>
+                <div className={styles.headContent}>
+                    <HeadContent title="Контакты"/>
+                </div>
                 <form className={styles.mainContacts}>
                     <input className={styles.contactsInput} type="text" placeholder={"Name"}/>
                     <input className={styles.contactsInput} type="text" placeholder={"E-mail"}/>

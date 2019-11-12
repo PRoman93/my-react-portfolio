@@ -4,9 +4,8 @@ import styles from './HeadContent.module.css';
 function HeadContent(props) {
     return (
 
-        <div >
-                    <h2 className={styles.topSkills}>{props.title}</h2>
-                    <div className={styles.line}></div>
+        <div className={styles.titleWrap}>
+            <h2 className={styles.title}>{props.title}</h2>
         </div>
     );
 }

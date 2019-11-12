@@ -8,7 +8,7 @@ function Slogan() {
     return (
         <div className={styles.slogan}>
             <div className={styles.container}>
-                <div><HeadContent classname={"new"} title="Рассмартиваю варианты удаленной работы"/></div>
+                    <HeadContent title="Рассмартиваю варианты удаленной работы"/>
                 <Button value="Нанять меня"/>
             </div>
         </div>

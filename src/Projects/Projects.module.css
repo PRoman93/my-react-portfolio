@@ -6,6 +6,7 @@
 }
 .container{
     width: 80%;
+    margin: 100px 0;
 }
 .works{
     text-align: center;
@@ -47,6 +48,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .secondBottom{
     height: 43%;

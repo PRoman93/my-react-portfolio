@@ -3,7 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/Contacts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadContent.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/NavMenu/NavMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/NavMenu/NavMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slogan/Slogan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slogan/Slogan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slogan/Slogan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slogan/Slogan.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Mywork/MoGo/MoGo.css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -92,7 +107,9 @@
       <workItem from="1572535510283" duration="512000" />
       <workItem from="1572556557582" duration="446000" />
       <workItem from="1572607154591" duration="4826000" />
-      <workItem from="1573471644183" duration="702000" />
+      <workItem from="1573471644183" duration="6813000" />
+      <workItem from="1573495908363" duration="2126000" />
+      <workItem from="1573562888177" duration="6889000" />
     </task>
     <task id="LOCAL-00001" summary="do change in app styles file">
       <created>1570524416326</created>
@@ -122,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572618976691</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some changes to another blocks">
+      <created>1573472364423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573472364423</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
