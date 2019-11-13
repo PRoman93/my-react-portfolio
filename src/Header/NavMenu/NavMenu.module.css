@@ -5,13 +5,10 @@
 }
 .navMenu a {
     text-decoration: none;
-    color: white;
+    color: #FFCC00;
 }
 .navMenu a:hover{
-    color: black;
+    color: gold;
     text-transform: uppercase;
     transition: 0.8s;
-    background-color: white;
-    border-radius: 15px;
-    padding: 2px;
 }
