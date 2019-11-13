@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/NavMenu/NavMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/NavMenu/NavMenu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,7 @@
       <workItem from="1573495908363" duration="2126000" />
       <workItem from="1573562888177" duration="6929000" />
       <workItem from="1573630378882" duration="1180000" />
-      <workItem from="1573632052895" duration="940000" />
+      <workItem from="1573632052895" duration="1481000" />
     </task>
     <task id="LOCAL-00001" summary="do change in app styles file">
       <created>1570524416326</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573631233670</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change to main photo and navMenu">
+      <created>1573633093080</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573633093080</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -195,6 +200,7 @@
     <MESSAGE value="do change in app styles file" />
     <MESSAGE value="main block is done" />
     <MESSAGE value="some changes to another blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes to another blocks" />
+    <MESSAGE value="change to main photo and navMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to main photo and navMenu" />
   </component>
 </project>
