@@ -17,7 +17,7 @@ function Footer() {
                     <div><img className={styles.socialIcon} src={mail} width="50px" height="50px"  alt=""/></div>
                     <div><img className={styles.socialIcon} src={instagram} width="50px" height="50px" alt=""/></div>
                 </div>
-                <div className={styles.copyRights}>© 2019 Все права защищены</div>
+                <div className={styles.copyRights}>© 2020 Все права защищены</div>
             </div>
 
         </div>

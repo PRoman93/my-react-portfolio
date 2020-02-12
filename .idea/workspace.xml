@@ -3,13 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadContent.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/NavMenu/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/NavMenu/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/NavMenu/NavMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/NavMenu/NavMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slogan/Slogan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slogan/Slogan.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,7 +120,16 @@
       <workItem from="1573495908363" duration="2126000" />
       <workItem from="1573562888177" duration="6929000" />
       <workItem from="1573630378882" duration="1180000" />
-      <workItem from="1573632052895" duration="1481000" />
+      <workItem from="1573632052895" duration="1674000" />
+      <workItem from="1575826660973" duration="2044000" />
+      <workItem from="1575833146406" duration="3093000" />
+      <workItem from="1576057270404" duration="23000" />
+      <workItem from="1576602479815" duration="15000" />
+      <workItem from="1577729087904" duration="619000" />
+      <workItem from="1580064263932" duration="792000" />
+      <workItem from="1580152732710" duration="2253000" />
+      <workItem from="1580550979097" duration="8331000" />
+      <workItem from="1580638764413" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="do change in app styles file">
       <created>1570524416326</created>
@@ -154,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573633093080</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change opacity to navMenu">
+      <created>1573633583707</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573633583707</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -201,6 +241,7 @@
     <MESSAGE value="main block is done" />
     <MESSAGE value="some changes to another blocks" />
     <MESSAGE value="change to main photo and navMenu" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to main photo and navMenu" />
+    <MESSAGE value="change opacity to navMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="change opacity to navMenu" />
   </component>
 </project>

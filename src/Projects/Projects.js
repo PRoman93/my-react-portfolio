@@ -1,18 +1,19 @@
 import React from 'react';
 import styles from './Projects.module.css';
 import HeadContent from "../HeadContent";
+import Button from "../Button";
 
 function Projects() {
     return (
         <div className={styles.projects}>
             <div className={styles.container}>
-                <div className={styles.works}>
-                    <HeadContent title="Мои работы"/>
+                <div className={styles.works} id='projects'>
+                    <HeadContent title="Проекты"/>
                 </div>
                 <div className={styles.projectsMain}>
                     <div className={styles.mainSecond}>
                         <div className={styles.secondTop}>
-                            <button>Смотреть</button>
+                            <Button value={'Смотреть'}/>
                         </div>
                         <div className={styles.secondBottom}>
                             <div>Название проекта</div>
@@ -23,7 +24,7 @@ function Projects() {
                     </div>
                     <div className={styles.mainSecond}>
                         <div className={styles.secondTop}>
-                            <button>Смотреть</button>
+                            <Button value={'Смотреть'}/>
                         </div>
                         <div className={styles.secondBottom}>
                             <div>Название проекта</div>

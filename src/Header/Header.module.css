@@ -1,6 +1,7 @@
 .header{
     height: 70px;
-    background-color: rgba(49, 31, 255, 0.65);
+    background-color: #FAFAFA;
+            /*rgba(49, 31, 255, 0.65);*/
     display: flex;
     justify-content: center;
     position: fixed;

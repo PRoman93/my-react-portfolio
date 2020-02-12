@@ -4,7 +4,7 @@ import photo from './banner.jpg'
 
 function Main() {
     return (
-        <div className={styles.main}>
+        <div className={styles.main} id='main'>
             <div className={styles.container}>
                 <div className={styles.greeting}>
                     <span>Привет!</span>
