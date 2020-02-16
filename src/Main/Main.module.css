@@ -1,5 +1,5 @@
 .main{
-    height: 100vh;
+    /*height: 100vh;*/
     background-color: #1F1F20;
     display: flex;
     justify-content: center;
@@ -92,9 +92,9 @@
     .main{
         height: 100%;
     }
-    .greeting{
-        padding-top: 30%;
-    }
+    /*.greeting{*/
+    /*    padding-top: 30%;*/
+    /*}*/
     .photo{
         margin-bottom: 5%;
     }

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import HeadContent from "../HeadContent";
+import react from './react-brands.svg'
 
 function Skills() {
 
@@ -38,7 +39,8 @@ function Skills() {
                     </div>
                     <div className={styles.column3}>
                         <div className={styles.rightSkillsTop}>
-                            <div className={styles.rightSkillsBox_3}></div>
+                            <div >
+                                <img src={react} height='100px' width='100px' alt=""/></div>
                             <h3 className={styles.rightSkillsWord}>React</h3>
                         </div>
                         <div className={styles.rightSkillsBottom}>
