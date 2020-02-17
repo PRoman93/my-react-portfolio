@@ -1,5 +1,5 @@
 .footer{
-    height: 300px ;
+    height: max-content;
     background-color: #E0E0DF;
     display: flex;
     justify-content: center;
@@ -22,14 +22,21 @@
     height: 35%;
     width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
+    margin: 20px 0
+}
+.footerContainer div img{
+    padding: 0 20px;
 }
 .socialIcon{
     border-radius: 15px;
     cursor: pointer;
     width: 70px;
     height: 70px;
+    margin: 20px 0
+;
 }
 .copyRights{
     font-size: 10px;

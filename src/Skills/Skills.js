@@ -23,7 +23,6 @@ function Skills() {
                     {/*        className={styles.active}>All</span><span>Slideshow</span><span>Video</span><span>Image</span>*/}
                     {/*</div>*/}
                 </div>
-                <div><i className="fa fa-spinner fa-spin"/></div>
                 <div className={styles.otherSkills}>
                     <div className={styles.column3}>
                         <div className={styles.rightSkillsTop}>

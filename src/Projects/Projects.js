@@ -16,8 +16,8 @@ function Projects() {
                             <Button value={'Смотреть'}/>
                         </div>
                         <div className={styles.secondBottom}>
-                            <div>Название проекта</div>
-                            <div className={styles.bottomDescription}>
+                            Название проекта
+                            <div >
                                 Краткое описание
                             </div>
                         </div>

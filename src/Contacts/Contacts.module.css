@@ -39,6 +39,7 @@
 }
 .contactsInput:hover{
     background: dimgrey;
+    outline: none;
 }
 .headContent{
     width: 100%;
