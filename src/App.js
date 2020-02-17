@@ -16,25 +16,25 @@ class App extends Component {
         const particleOpt = {
             particles: {
                 number: {
-                    value:150,
+                    value: 150,
                     density: {
-        enable:true,
-                        value_area:800
+                        enable: true,
+                        value_area: 800
                     }
                 }
             }
         }
         return (
             <div className="App">
-                    <Particles classname='particles'
-                    params={particleOpt}/>
-                    <Header/>
-                    <Main/>
-                    <Skills/>
-                    <Projects/>
-                    <Slogan/>
-                    <Contacts/>
-                    <Footer/>
+                <Particles classname='particles'
+                           params={particleOpt}/>
+                <Header/>
+                <Main/>
+                <Skills/>
+                <Projects/>
+                <Slogan/>
+                <Contacts/>
+                <Footer/>
             </div>
         );
     }

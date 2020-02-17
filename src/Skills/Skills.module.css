@@ -3,6 +3,7 @@
     background-color: #E0E0DF;;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .container{
     /*width: 80%;*/
