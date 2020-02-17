@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .container{
-    width: 80%;
+    /*width: 80%;*/
     min-height: 100%;
     margin: 100px 0;
 }
@@ -48,6 +48,8 @@
 .otherSkills{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
 }
 .column3{
     /*height: 400px;*/
@@ -88,36 +90,17 @@
     font-family: Montserrat;
     text-align: center;
 }
-.rightSkillsBox_1{
-    width: 100px;
-    height: 100px;
-    background-image: url("html_css.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.rightSkillsBox_2{
-    width: 100px;
-    height: 100px;
-    background-image: url("js.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.rightSkillsBox_3{
-    width: 100px;
-    height: 100px;
-    background-image: url("react.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 .rightSkillsWord{
     color: black;
     font-family: Montserrat;
 }
 .rightSkillsBottomPhrase{
     font-size: 24px;
+}
+.skillsImg{
+    height: 150px;
+    width: 150px;
+    align-items: center;
 }
 
 
