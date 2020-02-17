@@ -1,7 +1,7 @@
 .main{
     /*height: 100vh;*/
     height: max-content;
-    background-color: #1F1F20;
+    /*background-color: #1F1F20;*/
     display: flex;
     justify-content: center;
 }

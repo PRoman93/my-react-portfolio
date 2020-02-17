@@ -3,8 +3,16 @@
 }
 body{
     align-items: center;
+    background-color: #1f1f20;
 }
 
+.particles{
+    position: fixed !important;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
 @media (min-device-width:320px) {
 
 }
