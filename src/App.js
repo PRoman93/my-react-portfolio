@@ -26,7 +26,7 @@ class App extends Component {
         }
         return (
             <div className="App">
-                <Particles classname='particles'
+                <Particles className='particles'
                            params={particleOpt}/>
                 <Header/>
                 <Main/>
