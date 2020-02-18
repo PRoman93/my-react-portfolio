@@ -7,12 +7,14 @@ import css from '../assets/css3-brands.svg'
 import html from '../assets/html5-brands.svg'
 import js from '../assets/js-brands.svg'
 import github from '../assets/github.svg'
+import Fade from 'react-reveal/Fade';
 
 function Skills() {
 
 
     return (
         <div className={styles.skills}>
+            <Fade left>
             <div className={styles.container}>
                 <div className={styles.headerWrapper} id='skills'>
                     <HeadContent title="Скиллы" />
@@ -83,8 +85,9 @@ function Skills() {
                     </div>
                 </div>
             </div>
+            </Fade>
         </div>
-    );
+            )
 }
 
 export default Skills;

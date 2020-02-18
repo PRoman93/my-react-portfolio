@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Main.module.css';
-import photo from './banner.jpg'
 
 function Main() {
     return (

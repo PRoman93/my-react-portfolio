@@ -21,7 +21,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     animation-fill-mode: both;
     animation-duration: 1000ms;
     animation-delay: 0ms;
@@ -31,17 +30,23 @@
 }
 .contactsInput{
     width: 70%;
-    background: #1F1F20;
+    background: #252527;
     color: white;
     border: 1px solid cadetblue;
     padding: 7px;
     margin: 2px 0;
     border-radius: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.contactsInput:focus{
+    border: none;
+    transition: all 0.4s ease-in-out 0s;
 }
 .contactsInput:hover{
     background: dimgrey;
-    outline: none;
 }
+
 .headContent{
     width: 100%;
     align-items: center;
@@ -50,18 +55,23 @@
 .mainContacts textarea{
     width: 70%;
     height: 100px;
-    background: #1F1F20;
+    background: #252527;
     color: white;
     border-color: cadetblue;
     padding: 7px;
     margin-bottom: 50px;
     border-radius: 0;
     resize: none;
+    outline: none;
+    box-sizing: border-box;
 }
 .mainContacts textarea:hover{
     background: dimgrey;
 }
-
+.mainContacts textarea:focus{
+    border: none;
+    transition: all 0.4s ease-in-out 0s;
+}
 @media screen and (max-width: 1400px){
     .mainContacts{
         width: 100%;
