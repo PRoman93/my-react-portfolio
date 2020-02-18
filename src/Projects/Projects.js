@@ -17,7 +17,7 @@ function Projects() {
                         <Bounce bottom>
 
                                 <div className={styles.mainSecond}>
-                                    <Reveal effect='fadeInUp'>
+                                    {/*<Reveal effect='fadeInUp'>*/}
                                     <div className={styles.secondTop}>
                                         <div className={styles.projectContent}>
                                             <Button value={'Смотреть'}/>
@@ -27,7 +27,7 @@ function Projects() {
                                                 Amet at autem delectus dolor </div>
                                         </div>
                                     </div>
-                                    </Reveal>
+                                    {/*</Reveal>*/}
                                 </div>
 
 

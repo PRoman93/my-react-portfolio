@@ -57,6 +57,7 @@
 /*}*/
 
 .secondTop{
+    display:flex;
     justify-content: center;
     align-items: center;
     position:absolute;
@@ -65,16 +66,13 @@
     right:0;
     top:0;
     background:black;
-    opacity: 0.6;
     padding:5px;
-    display:none;
+    color: white;
+    opacity: 0;
 }
 .mainSecond:hover .secondTop{
+    opacity: 0.6;
     transition: all 5s;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
 }
 /*.projectContent div:hover{*/
 /*    align-items: center;*/
