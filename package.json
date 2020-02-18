@@ -5,6 +5,7 @@
   "homepage": "https://proman93.github.io/my-react-portfolio/",
   "dependencies": {
     "aos": "^2.3.4",
+    "build": "^0.1.4",
     "font-awesome": "^4.7.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

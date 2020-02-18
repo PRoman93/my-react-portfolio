@@ -1,6 +1,7 @@
 .footer{
     height: max-content;
-    background-color: #E0E0DF;
+    background-color:#73B1D6;
+            /*#E0E0DF;*/
     display: flex;
     justify-content: center;
     align-items: center;

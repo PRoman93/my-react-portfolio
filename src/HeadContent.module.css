@@ -6,14 +6,14 @@
     font-family: Montserrat;
     font-size: 36px;
     margin-bottom: 80px;
-    color: cadetblue;
+    color: #1D628B;
     /*text-transform: capitalize;*/
     position: relative;
 }
 .title:before{
     content: "";
     position: absolute;
-    background: cadetblue;
+    background: #1D628B;
     height: 1px;
     width: 55px;
     bottom: -30px;
