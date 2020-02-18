@@ -3,7 +3,8 @@ import styles from './Projects.module.css';
 import HeadContent from "../HeadContent";
 import Button from "../Button";
 import Fade from 'react-reveal/Fade';
-
+import Bounce from 'react-reveal/Bounce';
+import Reveal from 'react-reveal/Reveal';
 function Projects() {
     return (
         <Fade right>
@@ -13,28 +14,50 @@ function Projects() {
                         <HeadContent title="Проекты"/>
                     </div>
                     <div className={styles.projectsMain}>
+                        <Bounce bottom>
+
+                                <div className={styles.mainSecond}>
+                                    <Reveal effect='fadeInUp'>
+                                    <div className={styles.secondTop}>
+                                        <div className={styles.projectContent}>
+                                            <Button value={'Смотреть'}/>
+                                            <h3>Social network</h3>
+                                            <div>Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit.
+                                                Amet at autem delectus dolor </div>
+                                        </div>
+                                    </div>
+                                    </Reveal>
+                                </div>
+
+
+                        </Bounce>
+                        <Bounce bottom>
                         <div className={styles.mainSecond}>
                             <div className={styles.secondTop}>
-                                <Button value={'Смотреть'}/>
-                            </div>
-                            <div className={styles.secondBottom}>
-                                Название проекта
-                                <div >
-                                    Краткое описание
+                                <div className={styles.projectContent}>
+                                    <Button value={'Смотреть'}/>
+                                    <h3>ToDo List</h3>
+                                    <div>Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit.
+                                        Amet at autem delectus dolor </div>
                                 </div>
                             </div>
                         </div>
+                        </Bounce>
+                        <Bounce bottom>
                         <div className={styles.mainSecond}>
                             <div className={styles.secondTop}>
-                                <Button value={'Смотреть'}/>
-                            </div>
-                            <div className={styles.secondBottom}>
-                                <div>Название проекта</div>
-                                <div className={styles.bottomDescription}>
-                                    Краткое описание
+                                <div className={styles.projectContent}>
+                                    <Button value={'Смотреть'}/>
+                                    <h3>Counter</h3>
+                                    <div>Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit.
+                                        Amet at autem delectus dolor </div>
                                 </div>
                             </div>
                         </div>
+                        </Bounce>
                     </div>
                 </div>
 

@@ -71,17 +71,13 @@
 }
 .photo:hover{
     transform: scale(1.1, 1.1);
-    transition: 0.5s ease;
+    transition: .5s ease-in-out;
 }
 .photo div{
     height: 70vh;
     width: 280px;
     background-image: url("banner.jpg");
 }
-/*.photo div img{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
 .photo div:before{
     content: "";
     position: absolute;
@@ -91,6 +87,7 @@
     left: 15px;
     top: -15px;
     z-index: -1;
+    transition: .5s ease-in-out;
 }
 
 
@@ -98,9 +95,6 @@
     .main{
         height: 100%;
     }
-    /*.greeting{*/
-    /*    padding-top: 30%;*/
-    /*}*/
     .photo{
         margin-bottom: 5%;
     }
@@ -110,27 +104,10 @@
 
     .greeting span:nth-child(2) span:before{
         display: none;
-        /*content: "";*/
-        /*width: 100%;*/
-        /*height: 20px;*/
-        /*position: absolute;*/
-        /*bottom: 0;*/
-        /*z-index: -1;*/
-        /*background-color: rgba(0,0,0,1);*/
     }
 
 }
 
 @media screen and (max-width: 500px) {
-    /*.photo div{*/
-    /*    height: 50vh;*/
-    /*    width: 250px;*/
-    /*}*/
-    /*.photo div:before{*/
-    /*    height: 54vh;*/
-    /*    width: 240px;*/
-
-    /*}*/
-
 
 }

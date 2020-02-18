@@ -2,12 +2,11 @@ import React from 'react';
 import styles from "./Contacts.module.css";
 import HeadContent from "../HeadContent";
 import Button from "../Button";
-import Rotate from 'react-reveal/Rotate';
-
+import Fade from 'react-reveal/Fade';
 
 function Contacts() {
     return (
-        <Rotate top rights>
+        <Fade clear>
             <div className={styles.contacts}>
                 <div className={styles.container}>
                     <div className={styles.headContent} id='contacts'>
@@ -23,7 +22,7 @@ function Contacts() {
                 </div>
 
             </div>
-        </Rotate>
+        </Fade>
 
     );
 }
