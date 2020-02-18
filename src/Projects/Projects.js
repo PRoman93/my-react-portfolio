@@ -15,7 +15,6 @@ function Projects() {
                     </div>
                     <div className={styles.projectsMain}>
                         <Bounce bottom>
-
                                 <div className={styles.mainSecond}>
                                     {/*<Reveal effect='fadeInUp'>*/}
                                     <div className={styles.secondTop}>
@@ -25,6 +24,7 @@ function Projects() {
                                             <div>Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit.
                                                 Amet at autem delectus dolor </div>
+                                            <a href="https://proman93.github.io/my-react-way/"></a>
                                         </div>
                                     </div>
                                     {/*</Reveal>*/}
