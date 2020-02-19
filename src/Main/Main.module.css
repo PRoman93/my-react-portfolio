@@ -13,7 +13,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 100px 0;
+    margin: 170px 0;
 }
 .greeting{
     display: flex;
@@ -74,15 +74,15 @@
     transition: .5s ease-in-out;
 }
 .photo div{
-    height: 70vh;
-    width: 280px;
+    height: 50vh;
+    width: 270px;
     background-image: url("banner.jpg");
 }
 .photo div:before{
     content: "";
     position: absolute;
-    height: 73.5vh;
-    width: 270px;
+    height: 53vh;
+    width: 260px;
     border: 5px solid #1D628A;
     left: 15px;
     top: -15px;
