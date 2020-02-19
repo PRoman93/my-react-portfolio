@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0e9f42c342bec027a535668f53c97dd",
+    "revision": "8d8f0f5324a0eccf6b72214cc8675cbd",
     "url": "/my-react-portfolio/index.html"
   },
   {
-    "revision": "2b0a2a256d671eeee9d9",
+    "revision": "7005129676aa6eb8a12e",
     "url": "/my-react-portfolio/static/css/2.27964b97.chunk.css"
   },
   {
-    "revision": "bdd23769458c429b54d0",
-    "url": "/my-react-portfolio/static/css/main.785107ff.chunk.css"
+    "revision": "a5cd51ae38446cb71891",
+    "url": "/my-react-portfolio/static/css/main.bbb9c0e0.chunk.css"
   },
   {
-    "revision": "2b0a2a256d671eeee9d9",
-    "url": "/my-react-portfolio/static/js/2.9c960e75.chunk.js"
+    "revision": "7005129676aa6eb8a12e",
+    "url": "/my-react-portfolio/static/js/2.e150280a.chunk.js"
   },
   {
-    "revision": "bdd23769458c429b54d0",
-    "url": "/my-react-portfolio/static/js/main.758b0069.chunk.js"
+    "revision": "a5cd51ae38446cb71891",
+    "url": "/my-react-portfolio/static/js/main.bc0436b8.chunk.js"
   },
   {
     "revision": "bbcfd7af583ee3f70fa6",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-react-portfolio/static/media/banner.0045d605.jpg"
   },
   {
+    "revision": "74235a70a598a99ce158d2d073eca031",
+    "url": "/my-react-portfolio/static/media/counter.74235a70.png"
+  },
+  {
     "revision": "ea7920ed5a5c695c768777d50d406ca9",
     "url": "/my-react-portfolio/static/media/css3-brands.ea7920ed.svg"
+  },
+  {
+    "revision": "ae7b23fcf196713457522709c697a218",
+    "url": "/my-react-portfolio/static/media/dog.ae7b23fc.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -74,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3094c4233431edb41ad689a35effadc8",
     "url": "/my-react-portfolio/static/media/js-brands.3094c423.svg"
+  },
+  {
+    "revision": "f480c7801a1d637ef947c290222a63a7",
+    "url": "/my-react-portfolio/static/media/list.f480c780.png"
   },
   {
     "revision": "9571ceae61063b81aa078db58854cb19",
