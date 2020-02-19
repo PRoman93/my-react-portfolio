@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.css" afterDir="false" />
-    </list>
+    <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,7 @@
       <workItem from="1582009055938" duration="13076000" />
       <workItem from="1582024669831" duration="4014000" />
       <workItem from="1582034658113" duration="3441000" />
-      <workItem from="1582113437640" duration="1945000" />
+      <workItem from="1582113437640" duration="2617000" />
     </task>
     <task id="LOCAL-00001" summary="do change in app styles file">
       <created>1570524416326</created>
@@ -294,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582113600815</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fixed:projects vision on 320 px">
+      <created>1582115920727</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1582115920727</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -351,6 +355,7 @@
     <MESSAGE value="4-th part is almost done)" />
     <MESSAGE value="4-th part is done)" />
     <MESSAGE value="fixed:changed size of icons in footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed:changed size of icons in footer" />
+    <MESSAGE value="fixed:projects vision on 320 px" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed:projects vision on 320 px" />
   </component>
 </project>
