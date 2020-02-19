@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +125,7 @@
       <workItem from="1582024669831" duration="4014000" />
       <workItem from="1582034658113" duration="3441000" />
       <workItem from="1582113437640" duration="2841000" />
-      <workItem from="1582117011566" duration="883000" />
+      <workItem from="1582117011566" duration="1737000" />
     </task>
     <task id="LOCAL-00001" summary="do change in app styles file">
       <created>1570524416326</created>
@@ -309,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582116682881</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="is done">
+      <created>1582117942674</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1582117942674</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -367,6 +374,7 @@
     <MESSAGE value="4-th part is done)" />
     <MESSAGE value="fixed:changed size of icons in footer" />
     <MESSAGE value="fixed:projects vision on 320 px" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed:projects vision on 320 px" />
+    <MESSAGE value="is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="is done" />
   </component>
 </project>
