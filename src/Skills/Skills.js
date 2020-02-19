@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import HeadContent from "../HeadContent";
-import react from '../assets/react-brands.svg'
-import redux from '../assets/redux-logo-9CA6836C12-seeklogo.com.png'
-import css from '../assets/css3-brands.svg'
-import html from '../assets/html5-brands.svg'
-import js from '../assets/js-brands.svg'
-import github from '../assets/github.svg'
+import react from '../assets/technologies/react-brands.svg'
+import redux from '../assets/technologies/redux-logo-9CA6836C12-seeklogo.com.png'
+import css from '../assets/technologies/css3-brands.svg'
+import html from '../assets/technologies/html5-brands.svg'
+import js from '../assets/technologies/js-brands.svg'
+import github from '../assets/technologies/github.svg'
 import Fade from 'react-reveal/Fade';
 
 function Skills() {

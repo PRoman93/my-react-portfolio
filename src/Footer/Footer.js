@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from "./Footer.module.css";
-import mail from "../assets/mail.svg"
-import vk from "../assets/vk-brands.svg"
-import instagram from "../assets/instagram-brands.svg"
-import telegram from "../assets/telegram-plane-brands.svg"
-import github from "../assets/github_footer.svg"
+import mail from "../assets/social/mail.svg"
+import vk from "../assets/social/vk-brands.svg"
+import instagram from "../assets/social/instagram-brands.svg"
+import telegram from "../assets/social/telegram-plane-brands.svg"
+import github from "../assets/social/github_footer.svg"
 import Flip from 'react-reveal/Flip';
 
 

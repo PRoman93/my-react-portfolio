@@ -15,25 +15,20 @@ function Projects() {
                     </div>
                     <div className={styles.projectsMain}>
                         <Bounce bottom>
-                                <div className={styles.mainSecond}>
-                                    {/*<Reveal effect='fadeInUp'>*/}
+                                <div className={styles.network}>
                                     <div className={styles.secondTop}>
-                                        <div className={styles.projectContent}>
+                                        <div >
                                             <Button value={'Смотреть'}/>
                                             <h3>Social network</h3>
                                             <div>Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit.
                                                 Amet at autem delectus dolor </div>
-                                            <a href="https://proman93.github.io/my-react-way/"></a>
                                         </div>
                                     </div>
-                                    {/*</Reveal>*/}
                                 </div>
-
-
                         </Bounce>
                         <Bounce bottom>
-                        <div className={styles.mainSecond}>
+                        <div className={styles.list}>
                             <div className={styles.secondTop}>
                                 <div className={styles.projectContent}>
                                     <Button value={'Смотреть'}/>
@@ -46,11 +41,24 @@ function Projects() {
                         </div>
                         </Bounce>
                         <Bounce bottom>
-                        <div className={styles.mainSecond}>
+                        <div className={styles.counter}>
                             <div className={styles.secondTop}>
                                 <div className={styles.projectContent}>
                                     <Button value={'Смотреть'}/>
                                     <h3>Counter</h3>
+                                    <div>Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit.
+                                        Amet at autem delectus dolor </div>
+                                </div>
+                            </div>
+                        </div>
+                        </Bounce>
+                        <Bounce bottom>
+                        <div className={styles.dog}>
+                            <div className={styles.secondTop}>
+                                <div className={styles.projectContent}>
+                                    <Button value={'Смотреть'}/>
+                                    <h3>Dog game</h3>
                                     <div>Lorem ipsum dolor sit amet,
                                         consectetur adipisicing elit.
                                         Amet at autem delectus dolor </div>

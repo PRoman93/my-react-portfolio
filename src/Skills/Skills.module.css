@@ -105,11 +105,12 @@
 }
 
 
-@media screen and (max-width: 1128px) {
+@media screen and (max-width: 820px) {
     .otherSkills{
-        justify-content: space-between;
-        flex-direction: column;
+        justify-content: center;
+        /*flex-direction: column;*/
         align-items: center;
+        width: 100%;
     }
 
 }
