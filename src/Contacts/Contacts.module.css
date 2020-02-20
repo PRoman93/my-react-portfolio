@@ -84,3 +84,9 @@
     }
     
 }
+@media screen and (max-width: 375px) {
+    .contacts{
+        height: max-content;
+    }
+
+}

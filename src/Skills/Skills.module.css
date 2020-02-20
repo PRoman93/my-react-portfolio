@@ -105,21 +105,34 @@
 }
 
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 912px) {
     .otherSkills{
         justify-content: center;
         /*flex-direction: column;*/
         align-items: center;
-        width: 100%;
+        width: 80%;
     }
 
 }
+@media screen and (max-width: 375px) {
 
-@media screen and (max-width: 600px) {
-    .otherSkills{
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
+    .container{
+        width: 80%;
+        /*min-height: 100%;*/
+        /*margin: 100px 0;*/
     }
+        .otherSkills{
+            flex-direction: row;
+            width: 100%;
+        }
 
 }
+
+/*@media screen and (max-width: 600px) {*/
+/*    .otherSkills{*/
+/*        justify-content: space-between;*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*}*/
