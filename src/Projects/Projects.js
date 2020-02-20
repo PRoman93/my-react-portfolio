@@ -15,18 +15,23 @@ function Projects() {
                     </div>
                     <div className={styles.projectsWrapper}>
                         <Bounce bottom>
+
                             <div className={styles.network}>
-                                <div className={styles.hiddenContentWrapper}>
-                                    <div>
-                                        <Button value={'Смотреть'}/>
-                                        <h3>Social network</h3>
-                                        <div>Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Amet at autem delectus dolor
+                                <a href="https://proman93.github.io/my-react-way/">
+                                    <div className={styles.hiddenContentWrapper}>
+                                        <div>
+                                            <Button value={'Смотреть'}/>
+                                            <h3>Social network</h3>
+                                            <div>Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit.
+                                                Amet at autem delectus dolor
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
+
+
                         </Bounce>
                         <Bounce bottom>
                             <div className={styles.list}>
