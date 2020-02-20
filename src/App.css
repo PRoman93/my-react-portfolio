@@ -23,7 +23,9 @@ body {
     bottom: 0;;
 }
 
-/*@media (min-device-width: 320px) {*/
-
-/*}*/
+@media (max-width: 470px) {
+    body{
+        overflow-x: hidden;
+    }
+}
 

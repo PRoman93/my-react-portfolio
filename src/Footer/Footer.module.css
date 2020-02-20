@@ -1,7 +1,6 @@
-.footer{
+.footerWrapper{
     height: max-content;
     background-color:#73B1D6;
-            /*#E0E0DF;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +19,7 @@
     font-size: 20px;
     color: black;
 }
-.footerContainer{
+.iconWrapper{
     height: 35%;
     width: 70%;
     display: flex;
@@ -29,7 +28,7 @@
     align-items: center;
     margin: 20px 0
 }
-.footerContainer div img{
+.iconWrapper div img{
     padding: 0 20px;
 }
 .socialIcon{
@@ -50,7 +49,7 @@
 }
 
 @media screen and (max-width: 626px) {
-    .footerContainer {
+    .iconWrapper {
         width: 100%;
     }
 }

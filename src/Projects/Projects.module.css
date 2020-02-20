@@ -1,44 +1,49 @@
-.projects{
+.projects {
     min-height: 100vh;
     background-color: #1F1F20;
     display: flex;
     justify-content: center;
     position: relative;
 }
-.container{
+
+.container {
     width: 80%;
     flex-wrap: wrap;
     margin: 100px 0;
 }
-.works{
+
+.titleWrapper {
     text-align: center;
     height: 100px;
-
 }
-.projectsMain{
+
+.projectsWrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.mainFirst{
+
+.mainFirst {
     display: flex;
     flex-direction: column;
     height: 70vh;
     width: 70vh;
     margin: 5%;
 }
-.firstTop{
+
+.firstTop {
     background-color: grey;
     height: 70%;
     width: 100%;
 }
-.firstBottom{
+
+.firstBottom {
     background-color: darkgray;
     height: 30%;
     width: 100%;
 }
 
-.list, .counter, .dog, .network{
+.list, .counter, .dog, .network {
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -48,58 +53,60 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    position:relative;
+    position: relative;
 }
-.counter{
+
+.counter {
     background-image: url(../assets/images/counter.png);
 }
-.dog{
+
+.dog {
     background-image: url(../assets/images/dog.png);
 }
-.network{
+
+.network {
     background-image: url(../assets/images/network.png);
 }
 
-.secondTop{
-    display:flex;
+.hiddenContentWrapper {
+    display: flex;
     justify-content: center;
     align-items: center;
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0;
-    top:0;
-    background:black;
-    padding:5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: black;
+    padding: 5px;
     color: white;
     opacity: 0;
     transition: all .5s;
     top: 100%
 }
-.list:hover .secondTop, .network:hover .secondTop,
-.dog:hover .secondTop, .counter:hover .secondTop{
+
+.list:hover .hiddenContentWrapper, .network:hover .hiddenContentWrapper,
+.dog:hover .hiddenContentWrapper, .counter:hover .hiddenContentWrapper{
     opacity: 0.6;
     transition: all 0.5s;
     top: 0;
 }
 
 @media screen and (max-width: 1252px) {
-    .projectsMain{
+    .projectsWrapper {
         justify-content: center;
-    }
-    .projectsMain{
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 
-    @media screen
-    and (max-device-width: 1200px){
-        .list .secondTop, .network .secondTop,
-        .dog .secondTop, .counter .secondTop{
-            opacity: 0.6;
-            transition: all 0.5s;
-            top: 0;
-        }
+@media screen
+and (max-device-width: 1200px) {
+    .list .hiddenContentWrapper, .network .hiddenContentWrapper,
+    .dog .hiddenContentWrapper, .counter .hiddenContentWrapper {
+        opacity: 0.6;
+        transition: all 0.5s;
+        top: 0;
     }
+}
 
 

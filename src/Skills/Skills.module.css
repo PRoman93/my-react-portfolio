@@ -1,138 +1,63 @@
-.skills{
+.mainSkillsWrapper {
     min-height: 100vh;
     background-color: #73B1D6;
     display: flex;
     justify-content: center;
     position: relative;
 }
-.container{
-    /*width: 80%;*/
+.container {
     min-height: 100%;
     margin: 100px 0;
 }
-.headerWrapper{
+.headerWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 40px 0;
 }
-.headerWrapper span{
-    color: black;
-    font-family: Montserrat;
-    padding: 5px 10px
-}
-.headerWrapper span:hover{
-    border-bottom: 10px solid black;
-    transition: 0.5s;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-.topSkills{
-    min-height: 100px;
-    font-family: Montserrat;
-    font-size: 36px;
-    margin-bottom: 0;
-    color: black;
-    text-transform: capitalize;
-}
-.line{
-    background: black;;
-    width: 55px;
-    height: 1px;
-    margin: 30px auto;
-}
-.active{
-
-}
-.otherSkills{
+.skillsWrapper {
     display: flex;
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
 }
-.column3{
-    /*height: 400px;*/
-    /*width: 300px;*/
-    width: 45vh;
-}
-
-.column3{
+.skillList {
     display: flex;
+    width: 45vh;
     flex-direction: column;
     margin: 5%;
 }
-
-/*.column3:hover{*/
-/*    filter:blur(10px) ;*/
-/*    transition:0.5s;*/
-/*    */
-/*}*/
-.middleSkillsTop{
-    background-color: lightgoldenrodyellow;
-    width: 100%;
-    height: 60%;
-}
-.middleSkillsBottom{
-    background-color: black;
-    width: 100%;
-    height: 40%;
-    border:2px solid;
-}
-.rightSkillsTop{
+.skillContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.rightSkillsBottom{
-    color: black;
-    font-family: Montserrat;
-    text-align: center;
-}
-.rightSkillsWord{
+.skillTitle {
     color: black;
     font-family: Montserrat;
 }
-.rightSkillsBottomPhrase{
-    font-size: 24px;
-}
-.skillsImg{
+.skillImg {
     height: 150px;
     width: 150px;
     align-items: center;
 }
 
-
 @media screen and (max-width: 912px) {
-    .otherSkills{
+    .skillsWrapper {
         justify-content: center;
-        /*flex-direction: column;*/
         align-items: center;
-        width: 80%;
+        width: 100%;
     }
 
 }
 @media screen and (max-width: 375px) {
-
-    .container{
+    .container {
         width: 80%;
-        /*min-height: 100%;*/
-        /*margin: 100px 0;*/
     }
-        .otherSkills{
-            flex-direction: row;
-            width: 100%;
-        }
-
+    .skillsWrapper {
+        flex-direction: row;
+        width: 100%;
+    }
 }
 
-/*@media screen and (max-width: 600px) {*/
-/*    .otherSkills{*/
-/*        justify-content: space-between;*/
-/*        flex-direction: column;*/
-/*        align-items: center;*/
-/*    }*/
-
-/*}*/

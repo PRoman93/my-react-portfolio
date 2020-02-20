@@ -7,9 +7,9 @@ import Fade from 'react-reveal/Fade';
 function Contacts() {
     return (
         <Fade clear>
-            <div className={styles.contacts}>
+            <div className={styles.contactsWrapper}>
                 <div className={styles.container}>
-                    <div className={styles.headContent} id='contacts'>
+                    <div className={styles.titleWrapper} id='contacts'>
                         <HeadContent title="Контакты" />
                     </div>
                     <form className={styles.mainContacts}>

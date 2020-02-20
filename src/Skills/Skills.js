@@ -13,78 +13,53 @@ function Skills() {
 
 
     return (
-        <div className={styles.skills}>
+        <div className={styles.mainSkillsWrapper}>
             <Fade left>
                 <div className={styles.container}>
                     <div className={styles.headerWrapper} id='skills'>
                         <HeadContent title="Скиллы"/>
-                        {/*<h2 className={styles.topSkills}>Мои скиллы</h2>*/}
-                        {/*<div className={styles.line}></div>*/}
-                        {/*<div>*/}
-                        {/*    <span*/}
-                        {/*        className={styles.active}>All</span><span>Slideshow</span><span>Video</span><span>Image</span>*/}
-                        {/*</div>*/}
                     </div>
-                    <div className={styles.otherSkills}>
+                    <div className={styles.skillsWrapper}>
                         <Fade left>
-                            <div className={styles.column3}>
-                                <div className={styles.rightSkillsTop}>
-                                    <div><img className={styles.skillsImg} src={html} alt=""/></div>
-                                    <h3 className={styles.rightSkillsWord}>HTML</h3>
-                                </div>
-
-                                <div className={styles.rightSkillsBottom}>
+                            <div className={styles.skillList}>
+                                <div className={styles.skillContainer}>
+                                    <div><img className={styles.skillImg} src={html} alt=""/></div>
+                                    <h3 className={styles.skillTitle}>HTML</h3>
                                 </div>
                             </div>
-                            <div className={styles.column3}>
-                                <div className={styles.rightSkillsTop}>
-                                    <div><img className={styles.skillsImg} src={css} alt=""/></div>
-                                    <h3 className={styles.rightSkillsWord}>CSS</h3>
-                                </div>
-                                <div className={styles.rightSkillsBottom}>
-                                    {/*<span className={styles.rightSkillsBottomPhrase}>Подробное описание навыка</span>*/}
+                            <div className={styles.skillList}>
+                                <div className={styles.skillContainer}>
+                                    <div><img className={styles.skillImg} src={css} alt=""/></div>
+                                    <h3 className={styles.skillTitle}>CSS</h3>
                                 </div>
                             </div>
-                            <div className={styles.column3}>
-                                <div className={styles.rightSkillsTop}>
-                                    <div><img src={js} className={styles.skillsImg} alt=""/></div>
-                                    <h3 className={styles.rightSkillsWord}>JS</h3>
-                                </div>
-
-                                <div className={styles.rightSkillsBottom}>
-                                    {/*<span className={styles.rightSkillsBottomPhrase}>Подробное описание навыка</span>*/}
+                            <div className={styles.skillList}>
+                                <div className={styles.skillContainer}>
+                                    <div><img src={js} className={styles.skillImg} alt=""/></div>
+                                    <h3 className={styles.skillTitle}>JS</h3>
                                 </div>
                             </div>
                         </Fade>
                         <Fade >
-                        <div className={styles.column3}>
-                            <div className={styles.rightSkillsTop}>
+                        <div className={styles.skillList}>
+                            <div className={styles.skillContainer}>
                                 <div>
-                                    <img src={react} className={styles.skillsImg} alt=""/></div>
-                                <h3 className={styles.rightSkillsWord}>React</h3>
-                            </div>
-                            <div className={styles.rightSkillsBottom}>
-                                {/*<span className={styles.rightSkillsBottomPhrase}>Подробное описание навыка</span>*/}
+                                    <img src={react} className={styles.skillImg} alt=""/></div>
+                                <h3 className={styles.skillTitle}>React</h3>
                             </div>
                         </div>
-                        <div className={styles.column3}>
-                            <div className={styles.rightSkillsTop}>
+                        <div className={styles.skillList}>
+                            <div className={styles.skillContainer}>
                                 <div>
-                                    <img src={redux} className={styles.skillsImg} alt=""/></div>
-                                <h3 className={styles.rightSkillsWord}>Redux</h3>
-                            </div>
-                            <div className={styles.rightSkillsBottom}>
-                                {/*<span className={styles.rightSkillsBottomPhrase}>Подробное описание навыка</span>*/}
+                                    <img src={redux} className={styles.skillImg} alt=""/></div>
+                                <h3 className={styles.skillTitle}>Redux</h3>
                             </div>
                         </div>
-                        <div className={styles.column3}>
-                            <div className={styles.rightSkillsTop}>
+                        <div className={styles.skillList}>
+                            <div className={styles.skillContainer}>
                                 <div>
-                                    <img src={github} className={styles.skillsImg} alt=""/></div>
-                                <h3 className={styles.rightSkillsWord}>GitHub</h3>
-                            </div>
-                            <div className={styles.rightSkillsBottom}>
-                                {/*<span className={styles.rightSkillsBottomPhrase}>Подробное описание навыка</span>*/}
+                                    <img src={github} className={styles.skillImg} alt=""/></div>
+                                <h3 className={styles.skillTitle}>GitHub</h3>
                             </div>
                         </div>
                         </Fade>

@@ -1,4 +1,4 @@
-.contacts{
+.contactsWrapper{
     min-height: 100vh;
     background-color: #1F1F20;
     display: flex;
@@ -47,7 +47,7 @@
     background: dimgrey;
 }
 
-.headContent{
+.titleWrapper{
     width: 100%;
     align-items: center;
     text-align: center;
@@ -85,7 +85,7 @@
     
 }
 @media screen and (max-width: 375px) {
-    .contacts{
+    .contactsWrapper{
         height: max-content;
     }
 
