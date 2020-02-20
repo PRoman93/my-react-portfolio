@@ -21,6 +21,7 @@
     width: 100%;
     border: none;
     position: relative;
+    font-family: Montserrat;
 }
 .button:hover{
     box-shadow: 0px 10px 20px rgba(0,0,0,0.1);

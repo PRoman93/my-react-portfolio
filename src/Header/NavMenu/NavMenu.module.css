@@ -6,6 +6,7 @@
 .navMenu a {
     text-decoration: saddlebrown;
     color: #1D628B;
+    font-family: Montserrat;
 }
 .navMenu a:hover{
     color: gold;
