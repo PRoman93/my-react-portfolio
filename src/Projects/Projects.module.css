@@ -107,6 +107,12 @@ and (max-device-width: 1200px) {
         transition: all 0.5s;
         top: 0;
     }
+    .container {
+        width: 100%;
+    }
+    .list, .counter, .dog, .network{
+        width: 70%;
+    }
 }
 
 
