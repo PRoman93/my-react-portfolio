@@ -53,11 +53,17 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 400px) {
+    .socialIcon{
+        width: 25px;
+        height: 25px;
+    }
+}
 
 @media screen and (max-width: 340px) {
-    .socialIcons {
-        width: 50px;
-        height: 50px;
+    .socialIcon {
+        width: 20px;
+        height: 20px;
     }
 }
 
