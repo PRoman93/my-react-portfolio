@@ -1,6 +1,6 @@
 .footerWrapper{
     height: max-content;
-    background-color:#73B1D6;
+    background-color:black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
 .header{
     font-family: Montserrat;
     font-size: 20px;
-    color: black;
+    color: whitesmoke;
 }
 .iconWrapper{
     height: 35%;
@@ -45,7 +45,7 @@
 .copyRights{
     font-size: 10px;
     font-family: Montserrat;
-    color: black;
+    color: whitesmoke;
 }
 
 @media screen and (max-width: 626px) {

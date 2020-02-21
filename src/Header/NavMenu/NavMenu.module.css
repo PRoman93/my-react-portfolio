@@ -4,12 +4,12 @@
     justify-content: space-between;
 }
 .navMenu a {
-    text-decoration: saddlebrown;
-    color: #1D628B;
+    text-decoration: goldenrod;
+    color: whitesmoke;
     font-family: Montserrat;
 }
 .navMenu a:hover{
-    color: gold;
+    color: goldenrod;
     text-transform: uppercase;
     transition: 0.8s;
 }

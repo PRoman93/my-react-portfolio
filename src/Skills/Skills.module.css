@@ -1,6 +1,6 @@
 .mainSkillsWrapper {
     min-height: 100vh;
-    background-color: #73B1D6;
+    background-color: black;
     display: flex;
     justify-content: center;
     position: relative;
@@ -34,7 +34,7 @@
     align-items: center;
 }
 .skillTitle {
-    color: black;
+    color: whitesmoke;
     font-family: Montserrat;
 }
 .skillImg {

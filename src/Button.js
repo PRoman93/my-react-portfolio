@@ -7,5 +7,4 @@ function Button(props) {
             <a className={styles.button}>{props.value}</a>
     );
 }
-
 export default Button;

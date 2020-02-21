@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from "./Footer.module.css";
-import mail from "../assets/social/mail.svg"
-import vk from "../assets/social/vk-brands.svg"
-import instagram from "../assets/social/instagram-brands.svg"
-import telegram from "../assets/social/telegram-plane-brands.svg"
+import vk from "../assets/social/vk.svg"
+import instagram from "../assets/social/instagram.svg"
+import telegram from "../assets/social/telegram.svg"
 import github from "../assets/social/github_footer.svg"
 import Flip from 'react-reveal/Flip';
 
