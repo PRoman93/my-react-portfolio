@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,9 @@
       <workItem from="1582200679649" duration="1115000" />
       <workItem from="1582209677616" duration="2385000" />
       <workItem from="1582281069038" duration="2745000" />
-      <workItem from="1582284548639" duration="2055000" />
+      <workItem from="1582284548639" duration="2426000" />
+      <workItem from="1582346972514" duration="45000" />
+      <workItem from="1582366747207" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="do change in app styles file">
       <created>1570524416326</created>
@@ -387,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582285565564</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="change size in footer">
+      <created>1582287101301</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1582287101301</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -430,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="do change in app styles file" />
     <MESSAGE value="main block is done" />
     <MESSAGE value="some changes to another blocks" />
     <MESSAGE value="change to main photo and navMenu" />
@@ -455,6 +462,7 @@
     <MESSAGE value="add fonts to navBar and buttons" />
     <MESSAGE value="fixed width in projects" />
     <MESSAGE value="change color gama" />
-    <option name="LAST_COMMIT_MESSAGE" value="change color gama" />
+    <MESSAGE value="change size in footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="change size in footer" />
   </component>
 </project>

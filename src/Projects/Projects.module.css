@@ -103,7 +103,7 @@
 and (max-device-width: 1200px) {
     .list .hiddenContentWrapper, .network .hiddenContentWrapper,
     .dog .hiddenContentWrapper, .counter .hiddenContentWrapper {
-        opacity: 0.6;
+        opacity: 0.8;
         transition: all 0.5s;
         top: 0;
     }

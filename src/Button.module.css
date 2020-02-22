@@ -48,7 +48,7 @@
     height: 100%;
     width: 100%;
     transition: 0.5s;
-    color: goldenrod;
+    color: goldenrod;;
 }
 
 @media (min-device-width:320px) {
