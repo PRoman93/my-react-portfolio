@@ -31,7 +31,6 @@ function Projects() {
                                 </a>
                             </div>
 
-
                         </Bounce>
                         <Bounce bottom>
                             <div className={styles.list}>
