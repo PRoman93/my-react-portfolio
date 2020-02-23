@@ -15,7 +15,6 @@ function Projects() {
                     </div>
                     <div className={styles.projectsWrapper}>
                         <Bounce bottom>
-
                             <div className={styles.network}>
                                 <a href="https://proman93.github.io/my-react-way/">
                                     <div className={styles.hiddenContentWrapper}>
@@ -30,7 +29,6 @@ function Projects() {
                                     </div>
                                 </a>
                             </div>
-
                         </Bounce>
                         <Bounce bottom>
                             <div className={styles.list}>
@@ -76,11 +74,8 @@ function Projects() {
                         </Bounce>
                     </div>
                 </div>
-
             </div>
         </Fade>
-
     );
 }
-
 export default Projects;
