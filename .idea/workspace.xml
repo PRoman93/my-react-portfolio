@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +136,9 @@
       <workItem from="1582284548639" duration="2426000" />
       <workItem from="1582346972514" duration="45000" />
       <workItem from="1582366747207" duration="1682000" />
+      <workItem from="1582458719557" duration="651000" />
+      <workItem from="1582541098062" duration="13000" />
+      <workItem from="1582635176867" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="do change in app styles file">
       <created>1570524416326</created>
@@ -409,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582367415533</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="refactoring">
+      <created>1582458762999</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1582458762999</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -452,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change to main photo and navMenu" />
     <MESSAGE value="change opacity to navMenu" />
     <MESSAGE value="some changes..i dont remember for what" />
     <MESSAGE value="some changes for icons and others" />
@@ -477,6 +487,7 @@
     <MESSAGE value="change size in footer" />
     <MESSAGE value="change opacity in projects" />
     <MESSAGE value="yo" />
-    <option name="LAST_COMMIT_MESSAGE" value="yo" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>

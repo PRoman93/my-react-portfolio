@@ -46,6 +46,7 @@ function Projects() {
                         </Bounce>
                         <Bounce bottom>
                             <div className={styles.counter}>
+                                <a href="https://proman93.github.io/counter/">
                                 <div className={styles.hiddenContentWrapper}>
                                     <div>
                                         <Button value={'Смотреть'}/>
@@ -56,6 +57,7 @@ function Projects() {
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                             </div>
                         </Bounce>
                         <Bounce bottom>
