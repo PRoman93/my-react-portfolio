@@ -7,9 +7,10 @@
     text-decoration: goldenrod;
     color: whitesmoke;
     font-family: Montserrat;
+    transition: all 1s;
 }
 .navMenu a:hover{
     color: goldenrod;
     text-transform: uppercase;
-    transition: 0.8s;
+    transition: all 1s;
 }
