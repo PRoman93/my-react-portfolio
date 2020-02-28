@@ -62,6 +62,7 @@ function Projects() {
                         </Bounce>
                         <Bounce bottom>
                             <div className={styles.dog}>
+                                <a href="https://proman93.github.io/dog-game/">
                                 <div className={styles.hiddenContentWrapper}>
                                     <div>
                                         <Button value={'Смотреть'}/>
@@ -72,6 +73,7 @@ function Projects() {
                                         </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
                         </Bounce>
                     </div>
