@@ -43,7 +43,7 @@
     width: 100%;
 }
 
-.list, .counter, .dog, .network {
+.list, .counter, .dog, .network, .counter_redux{
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -67,6 +67,9 @@
 .network {
     background-image: url(../assets/images/network.png);
 }
+.counter_redux {
+    background-image: url(../assets/images/counter-redux.png);
+}
 
 .hiddenContentWrapper {
     display: flex;
@@ -86,7 +89,8 @@
 }
 
 .list:hover .hiddenContentWrapper, .network:hover .hiddenContentWrapper,
-.dog:hover .hiddenContentWrapper, .counter:hover .hiddenContentWrapper{
+.dog:hover .hiddenContentWrapper, .counter:hover .hiddenContentWrapper,
+.counter_redux:hover .hiddenContentWrapper{
     opacity: 0.6;
     transition: all 0.5s;
     top: 0;
@@ -102,7 +106,8 @@
 @media screen
 and (max-device-width: 1200px) {
     .list .hiddenContentWrapper, .network .hiddenContentWrapper,
-    .dog .hiddenContentWrapper, .counter .hiddenContentWrapper {
+    .dog .hiddenContentWrapper, .counter .hiddenContentWrapper,
+    .counter_redux .hiddenContentWrapper{
         opacity: 0.8;
         transition: all 0.5s;
         top: 0;
@@ -110,7 +115,7 @@ and (max-device-width: 1200px) {
     .container {
         width: 100%;
     }
-    .list, .counter, .dog, .network{
+    .list, .counter, .dog, .network, .counter_redux{
         width: 70%;
     }
 }

@@ -76,6 +76,22 @@ function Projects() {
                                 </a>
                             </div>
                         </Bounce>
+                        <Bounce bottom>
+                            <div className={styles.counter_redux}>
+                                <a href="https://proman93.github.io/counter-redux/">
+                                <div className={styles.hiddenContentWrapper}>
+                                    <div>
+                                        <Button value={'Смотреть'}/>
+                                        <h3>Counter redux</h3>
+                                        <div>Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit.
+                                            Amet at autem delectus dolor
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </Bounce>
                     </div>
                 </div>
             </div>
