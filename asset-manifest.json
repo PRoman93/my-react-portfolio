@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.d137461e.chunk.css",
-    "main.js": "/my-react-portfolio/static/js/main.a752fa93.chunk.js",
-    "main.js.map": "/my-react-portfolio/static/js/main.a752fa93.chunk.js.map",
+    "main.js": "/my-react-portfolio/static/js/main.bc2c1d29.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.bc2c1d29.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.93afcbd9.js",
     "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.93afcbd9.js.map",
     "static/css/2.27964b97.chunk.css": "/my-react-portfolio/static/css/2.27964b97.chunk.css",
-    "static/js/2.70865604.chunk.js": "/my-react-portfolio/static/js/2.70865604.chunk.js",
-    "static/js/2.70865604.chunk.js.map": "/my-react-portfolio/static/js/2.70865604.chunk.js.map",
+    "static/js/2.3f3006e9.chunk.js": "/my-react-portfolio/static/js/2.3f3006e9.chunk.js",
+    "static/js/2.3f3006e9.chunk.js.map": "/my-react-portfolio/static/js/2.3f3006e9.chunk.js.map",
     "index.html": "/my-react-portfolio/index.html",
-    "precache-manifest.58a0e4c9668a0d1299f8122dd1054590.js": "/my-react-portfolio/precache-manifest.58a0e4c9668a0d1299f8122dd1054590.js",
+    "precache-manifest.73b3b998e3b142bb0f695b610a77ed72.js": "/my-react-portfolio/precache-manifest.73b3b998e3b142bb0f695b610a77ed72.js",
     "service-worker.js": "/my-react-portfolio/service-worker.js",
     "static/css/2.27964b97.chunk.css.map": "/my-react-portfolio/static/css/2.27964b97.chunk.css.map",
     "static/css/main.d137461e.chunk.css.map": "/my-react-portfolio/static/css/main.d137461e.chunk.css.map",
@@ -24,6 +24,7 @@
     "static/media/js.svg": "/my-react-portfolio/static/media/js.9b4483ab.svg",
     "static/media/react.svg": "/my-react-portfolio/static/media/react.efb0471d.svg",
     "static/media/telegram.svg": "/my-react-portfolio/static/media/telegram.83a99d2c.svg",
+    "static/media/typescript.svg": "/my-react-portfolio/static/media/typescript.67f525ca.svg",
     "static/media/vk.svg": "/my-react-portfolio/static/media/vk.ea5cfe0e.svg"
   }
 }
