@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18780d2a-b194-4d3e-8625-babe2c855519" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +144,10 @@
       <workItem from="1582883111273" duration="135000" />
       <workItem from="1582883482491" duration="132000" />
       <workItem from="1582884815450" duration="722000" />
-      <workItem from="1584463721554" duration="390000" />
+      <workItem from="1584463721554" duration="1292000" />
+      <workItem from="1584472451480" duration="606000" />
+      <workItem from="1586274591833" duration="717000" />
+      <workItem from="1587212776847" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="do change in app styles file">
       <created>1570524416326</created>
@@ -448,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582885466486</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add counter redux project to">
+      <created>1584464349627</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1584464349627</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -491,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="another changes with logos" />
     <MESSAGE value="3-rd part of portfolio is done" />
     <MESSAGE value="plus particle" />
     <MESSAGE value="particle is done" />
@@ -516,6 +524,7 @@
     <MESSAGE value="add link to project counter" />
     <MESSAGE value="add link to project dog" />
     <MESSAGE value="fixed link on hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed link on hover" />
+    <MESSAGE value="add counter redux project to" />
+    <option name="LAST_COMMIT_MESSAGE" value="add counter redux project to" />
   </component>
 </project>
