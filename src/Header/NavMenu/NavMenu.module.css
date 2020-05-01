@@ -11,6 +11,5 @@
 }
 .navMenu a:hover{
     color: goldenrod;
-    text-transform: uppercase;
     transition: all 1s;
 }
